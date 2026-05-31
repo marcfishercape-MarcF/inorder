@@ -95,7 +95,7 @@ body{font-family:'Segoe UI',Georgia,sans-serif;background:#0a1a0a;min-height:100
 .sl{font-size:11px;font-weight:700;color:#6b7280;letter-spacing:0.5px;margin-top:1px}
 
 .ch-pills{background:#fff;display:flex;gap:6px;padding:6px 10px;border-bottom:1px solid #e5e7eb;flex-shrink:0;justify-content:center;flex-wrap:wrap}
-.ch-pill{display:flex;align-items:center;gap:4px;padding:6px 14px;border-radius:12px;font-size:13px;font-weight:700;cursor:pointer;border:none;font-family:inherit;transition:all 0.15s}
+.ch-pill{display:flex;align-items:center;gap:4px;padding:5px 10px;border-radius:12px;font-size:12px;font-weight:700;cursor:pointer;border:none;font-family:inherit;transition:all 0.15s}
 .ch-pill.all-orders{background:#f0fdf4;color:#1a5c1a;border:2px solid #1a5c1a;font-weight:800}
 .ch-pill.all-orders.active{background:#1a5c1a;color:#fff}
 .ch-pill.wa{background:#dcfce7;color:#16a34a}
@@ -107,9 +107,9 @@ body{font-family:'Segoe UI',Georgia,sans-serif;background:#0a1a0a;min-height:100
 .ch-pill.unpicked{background:#fef2f2;color:#ef4444;border:1px solid #fecaca}
 .ch-pill.unpicked.active{background:#ef4444;color:#fff}
 
-.tab-bar{background:#fff;display:flex;border-bottom:2px solid #e5e7eb;flex-shrink:0;overflow-x:auto;justify-content:center;align-items:center}
+.tab-bar{background:#fff;display:flex;border-bottom:2px solid #e5e7eb;flex-shrink:0;overflow-x:auto;justify-content:flex-start;align-items:center;-webkit-overflow-scrolling:touch}
 .tab-bar::-webkit-scrollbar{display:none}
-.tb{flex-shrink:0;padding:9px 16px;font-size:13px;font-weight:600;color:#374151;border:1.5px solid #d1d5db;background:#f9fafb;border-radius:8px;margin:3px 2px;cursor:pointer;white-space:nowrap;font-family:inherit;transition:all 0.15s}
+.tb{flex-shrink:0;padding:6px 10px;font-size:11px;font-weight:600;color:#374151;border:1.5px solid #d1d5db;background:#f9fafb;border-radius:8px;margin:2px 2px;cursor:pointer;white-space:nowrap;font-family:inherit;transition:all 0.15s}
 .tb:hover{background:#f3f4f6;border-color:#9ca3af}
 .tb.active{color:#fff;background:#1a5c1a;border-color:#1a5c1a;font-weight:700}
 .tb.accent{background:#f0fdf4;color:#1d4ed8;border-color:#bbf7d0}
