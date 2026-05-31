@@ -489,19 +489,7 @@ function SummaryView({ orders }) {
   );
 }
 
-function AccountingView() {
-  return (
-    <div style={{padding:12,maxWidth:720,margin:'0 auto'}}>
-      <div style={{background:'#0d2d0d',borderRadius:10,padding:'14px 18px',marginBottom:16,display:'flex',alignItems:'flex-start',gap:14}}>
-        <div style={{fontSize:22,flexShrink:0}}>🧾</div>
-        <div>
-          <div style={{fontSize:13,fontWeight:700,color:'#4ade80',marginBottom:4}}>Inorder v3.0 — Coming Soon</div>
-          <div style={{fontSize:12,color:'#86efac',lineHeight:1.6}}>Auto-generate invoices from confirmed deliveries. Direct export to Sage, Xero or QuickBooks. No double capturing. No manual re-entry.</div>
-        </div>
-      </div>
-    </div>
-  );
-}
+
 
 function FeaturesView() {
   const feats = [
