@@ -107,7 +107,7 @@ body{font-family:'Segoe UI',Georgia,sans-serif;background:#0a1a0a;min-height:100
 .ch-pill.unpicked{background:#fef2f2;color:#ef4444;border:1px solid #fecaca}
 .ch-pill.unpicked.active{background:#ef4444;color:#fff}
 
-.tab-bar{background:#fff;display:flex;border-bottom:2px solid #e5e7eb;flex-shrink:0;overflow-x:auto;overflow-y:visible;justify-content:flex-start;align-items:center;-webkit-overflow-scrolling:touch;scroll-snap-type:x mandatory;padding:0 8px;box-sizing:border-box}
+.tab-bar{background:#fff;display:flex;border-bottom:2px solid #e5e7eb;flex-shrink:0;flex-wrap:wrap;justify-content:center;align-items:center;padding:4px 8px;box-sizing:border-box}
 .tab-bar::-webkit-scrollbar{display:none}
 .tb{flex-shrink:0;padding:6px 10px;font-size:11px;font-weight:600;color:#374151;border:1.5px solid #d1d5db;background:#f9fafb;border-radius:8px;margin:2px 2px;cursor:pointer;white-space:nowrap;font-family:inherit;transition:all 0.15s}
 .tb:hover{background:#f3f4f6;border-color:#9ca3af}
